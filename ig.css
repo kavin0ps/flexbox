@@ -1,0 +1,251 @@
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:70px;
+  border-bottom: 1px solid rgb(202, 197, 197);
+}
+.logo {
+  margin: 15px;
+  margin-right: 0px;
+}
+.search {
+  background-color: #efefef;
+  border-radius: 30px;
+  padding: 8px 15px;
+  display: flex;
+  gap: 10px;
+  justify-content: start;
+  align-items: center;
+  width: 330px;
+  font-size: 16px;
+  color: rgb(93, 93, 93);
+}
+.btn{
+  display: flex;
+}
+.btna {
+  background-color: #0095f6;
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 0px;
+  cursor: pointer;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.btnb {
+  background-color: #ffffff;
+  color: #0095f6;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  text-decoration: none;
+}
+body {
+  font-family: Segoe UI;
+}
+.h{
+    display: flex;
+    flex-direction: row;
+}
+.profile{
+    margin: 20px;
+}
+.dp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:60px;
+}
+.img>img {
+  height: 100px;
+  border-radius: 80px;
+  border: 0.5px solid #cac4c4;
+  padding: 25px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.id {
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+  align-items: center;
+}
+.name {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 5px;
+  font-size: 20px;
+}
+.btn1 {
+  display: flex;
+}
+.btn2 {
+  background-color:  #efefef;
+  color: #000000;
+  border: none;
+  
+  font-weight: 600;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  justify-content: end;
+}
+
+.social {
+    color: #000000;
+    border: none;
+    text-align: center;
+    display: flex;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    gap: 30px;
+    justify-content: start;
+    align-items: center;
+  }
+  .social>a{
+    
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 600;
+  }
+.link{
+    color: #050505;
+    font-size: 13px;
+    gap: 0px;
+    font-weight: 600;
+
+}
+span{
+    
+  background-color: #efefef;
+  color: #000000;
+  border: none;
+  text-align: center;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 12px;
+}
+.desc{
+    display: flex;
+    gap: 0px;
+    flex-direction: row;
+    font-size: 14px;
+
+}
+.light{
+    
+    background-color: #ffffff;
+    color: #adadad;
+    border: none;
+    font-size: 14px;
+    margin: 1px;
+    cursor: pointer;
+    font-weight: 400;
+  }
+  .bio>a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    color: rgb(40, 84, 115);
+  }
+  .high{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 35%;
+    gap:10%;
+    margin-left: 30%;
+    margin-top: 55px;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .red>div{
+    border-radius: 80px;
+    background-color: rgb(130, 182, 233);
+    border: 3px  double  #adadad;
+    width: 80px;
+    height: 80px;
+
+  }
+  
+  .green>div{
+    
+    border-radius: 80px;
+    background-color: rgb(66, 132, 244);
+    
+    border: 3px  double  #adadad;
+    width: 80px;
+    height: 80px;
+  }
+  .orange>div{
+    
+    border-radius: 70px;
+    background-color:rgb(254, 0, 0);
+    
+    border: 3px  double  #adadad;
+    width: 80px;
+    height: 80px;
+  }
+  .blue>div{
+    width: 80px;
+    height: 80px;
+    background-color:rgb(58, 181, 74);
+    border: 3px  double  #adadad;
+    border-radius: 70px;
+  }
+  .nav{
+    display: flex;
+    justify-content: center;
+    gap:60px;
+    border-top: 1px solid rgb(202, 197, 197);
+    padding: 10px;
+  }
+  .media{
+    display: flex;
+    flex-direction: column;
+    gap:6px;
+    align-items: center;
+  }
+  
+  .media1{
+    display: flex;
+    flex-direction: row;
+    gap:6px;
+  }
+  .media2{
+    display: flex;
+    flex-direction: row;
+    gap:6px;
+  }
+  .media3{
+    display: flex;
+    flex-direction: row;
+    gap:6px;
+  }
